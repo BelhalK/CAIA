@@ -65,15 +65,15 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+              Giving a voice and opportunities to Central Asian working in the fields of Machine Learning and Artificial Intelligence.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Get started
+                  <Button tag="a" color="primary" wideMobile href="typeform" target="_blank" rel="noopener noreferrer">
+                  Welcome Form
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
+                  <Button tag="a" color="dark" wideMobile href="https://twitter.com/centralasian_ai">
+                  Follow us on Twitter
                     </Button>
                 </ButtonGroup>
               </div>
