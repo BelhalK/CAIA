@@ -72,7 +72,7 @@ const Hero = ({
                   <Button tag="a" color="primary" wideMobile href="typeform" target="_blank" rel="noopener noreferrer">
                   Welcome Form
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://twitter.com/centralasian_ai">
+                  <Button tag="a" color="dark" wideMobile target="_blank" href="https://twitter.com/centralasian_ai">
                   Follow us on Twitter
                     </Button>
                 </ButtonGroup>
