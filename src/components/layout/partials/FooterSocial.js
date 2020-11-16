@@ -31,7 +31,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/">
+        <a target="_blank" href="https://twitter.com/centralasian_ai">
             <svg
               width="16"
               height="16"
