@@ -8,7 +8,8 @@ $footer--color: (
 
 // Background color
 $footer--bg: (
-	footer:	get-color(dark, 1)
+	// footer:	get-color(dark, 1)
+	footer:	get-color(light, 0)
 );
 
 // Font size

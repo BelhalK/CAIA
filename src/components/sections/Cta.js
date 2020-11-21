@@ -53,7 +53,7 @@ const Cta = ({
           className={innerClasses}
         >
           <div className="cta-slogan">
-            <h3 className="m-0">
+            <h3 style={{color : 'white'}} className="m-0">
               Join the movement!
               </h3>
           </div>
@@ -63,7 +63,7 @@ const Cta = ({
                 <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
               </svg>
             </Input> */}
-            <Button tag="a" color="primary" wideMobile href="typeform" target="_blank" rel="noopener noreferrer">
+            <Button tag="a" style={{ borderColor: '#194d33', borderWidth: 2,backgroundColor: 'white' }} color="light" wideMobile href="https://docs.google.com/forms/d/e/1FAIpQLSfYGrpoF8oLeKyT_lT7E3SVihGv2Nvm2OGUbsfrN9b9io8LLw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
                   Welcome Form
                     </Button>
           </div>
