@@ -55,7 +55,7 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: 'Upcoming Events',
-    paragraph: ''
+    paragraph: 'Our umpcoming events are available to our community and include:'
   };
 
   return (
@@ -66,14 +66,11 @@ const Testimonial = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
-          <div className={tilesClasses}>
-
-    Our umpcoming events are available to our community and include:
-        
-        
-          </div>
-          <div className={tilesClasses}>
-          <Listexample data={sectionHeader} className="center-content" />
+          <div >
+          <ul>
+              <li>T.B.A.</li>
+        </ul>
+          {/* <Listexample data={sectionHeader} className="center-content" /> */}
           </div>
         </div>
       </div>
