@@ -118,7 +118,7 @@ const FeaturesTiles = ({
                   Networking
                     </h4>
                   <p className="m-0 text-sm">
-                  Join our network of researchers ranging from Ph.D. students, Postdoctoral fellows to Full time Professors and Research Scientists.
+                    Join our network of researchers ranging from Ph.D. students, Postdoctoral fellows to Full time Professors and Research Scientists.
                     </p>
                 </div>
               </div>
