@@ -120,7 +120,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" style={{ backgroundColor: '#194d33', color: 'white' }} className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Contact Us</Link>
+                        <Link to="#0" style={{ backgroundColor: '#194d33', borderRadius: 50,color: 'white' }} className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Contact Us</Link>
                       </li>
                     </ul>}
                 </div>
