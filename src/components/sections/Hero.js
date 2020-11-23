@@ -69,10 +69,10 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" style={{ borderColor: '#194d33', borderWidth: 2,backgroundColor: 'white' }} color="light" wideMobile href="https://docs.google.com/forms/d/e/1FAIpQLSfYGrpoF8oLeKyT_lT7E3SVihGv2Nvm2OGUbsfrN9b9io8LLw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
+                  <Button tag="a" style={{ borderColor: '#194d33', borderRadius: 50, borderWidth: 2,backgroundColor: 'white' }} color="light" wideMobile href="https://docs.google.com/forms/d/e/1FAIpQLSfYGrpoF8oLeKyT_lT7E3SVihGv2Nvm2OGUbsfrN9b9io8LLw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
                   Welcome Form
                     </Button>
-                  <Button tag="a" color="dark" wideMobile target="_blank" href="https://twitter.com/centralasian_ai">
+                  <Button tag="a" style={{ borderRadius: 50}} color="dark" wideMobile target="_blank" href="https://twitter.com/centralasian_ai">
                   Follow us on Twitter
                     </Button>
                 </ButtonGroup>
