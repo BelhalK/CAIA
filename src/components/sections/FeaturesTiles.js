@@ -74,7 +74,7 @@ const FeaturesTiles = ({
                   Mentoring
                     </h4>
                   <p className="m-0 text-sm">
-                  We aim at attracting experimented researchers to share their experiences and review the work of less experimented person during mentoring sessions.
+                  We aim at attracting researchers and engineers in ML to share their experiences and review the work of less experimented person during mentoring sessions.
                     </p>
                 </div>
               </div>
@@ -96,7 +96,7 @@ const FeaturesTiles = ({
                   Inclusivity
                     </h4>
                   <p className="m-0 text-sm">
-                    CAiAI is an inclusive platform where anyone identifying as Central Asian is invited to join.
+                    CAiAI is an inclusive platform where anyone identifying as Central Asian  (or not) is invited to join.
                     </p>
                 </div>
               </div>

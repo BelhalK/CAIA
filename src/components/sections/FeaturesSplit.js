@@ -49,6 +49,8 @@ const FeaturesSplit = ({
     alignTop && 'align-top'
   );
 
+  
+
   const sectionHeader = {
     title: 'Our Mission',
     paragraph: 'As diversity crisis grows relentlessly, we want to address the big gap in diversity and include Central Asian in the forefront of ML and AI.'
@@ -66,16 +68,26 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                {/* <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div> */}
-                <h3 className="mt-0 mb-12">
+              <h3 className="mt-0 mb-12">
                   Diversity Crisis
                   </h3>
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                Stand for equality
+                  </div>
                 <p className="m-0">
-                  We want to make sure work done by Central Asian is appreciated for their true value and presented more often.
+                  We want to make sure the work done by Central Asian is appreciated for their true value and presented more often.
+                  </p>
+                  
+                  &nbsp;
+                  
+                  <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Create momentum
+                  </div>
+                <p className="m-0">
+                Through workshops, poster sessions, mentoring sessions and special events, CAiAI's goal is to make sure the community of Central Asian researchers is active and contributes to the global picture.
                   </p>
               </div>
+              
               <div className={
                 classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
@@ -83,23 +95,23 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
+                  src={require('./../../assets/images/Diversity.png')}
+                  alt="Diversity"
                   width={528}
                   height={396} />
               </div>
             </div>
 
-            <div className="split-item">
+            {/*<div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                {/* <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Lightning fast workflow
-                  </div> */}
+                  </div>
                 <h3 className="mt-0 mb-12">
                   Create momentum
                   </h3>
                 <p className="m-0">
-                 Through workshops, poster session, mentoring sessions and special events, CAiAI goal is to make sure the community of Central Asian researchers is alive and contributes to the global picture.
+                 Through workshops, poster sessions, mentoring sessions and special events, CAiAI's goal is to make sure the community of Central Asian researchers is active and contributes to the global picture.
                   </p>
               </div>
               <div className={
@@ -109,12 +121,12 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
-                  alt="Features split 02"
+                  src={require('./../../assets/images/speed.png')}
+                  alt="Velocity"
                   width={528}
                   height={396} />
               </div>
-            </div>
+            </div>*/}
 
             {/* <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
