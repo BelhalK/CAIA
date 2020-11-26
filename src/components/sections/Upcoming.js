@@ -55,7 +55,7 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: 'Upcoming Events',
-    paragraph: 'Our umpcoming events are available to our community and include:'
+    paragraph: 'Our upcoming events are available to our community and include:'
   };
 
   return (
